@@ -6,3 +6,40 @@
   text-decoration: none;
   list-style-type: none;
 }
+
+html, body, #root {
+  height: 100%;
+}
+
+.screen {
+  background-color: black;
+  color: white;
+  height: 100%;
+}
+
+.screen span{
+  position: absolute;
+  cursor: default;
+  width: 0.625rem; 
+  height: 0.625rem; 
+  background-color: red; 
+  border-radius: 50%; 
+  cursor: default;
+  transform: translate(-50%,-50%);
+}
+
+.buttons{
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+.buttons button{
+  width: 5rem;
+  height: 3rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: rgb(201, 197, 197);
+}
